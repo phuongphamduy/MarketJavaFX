@@ -152,14 +152,25 @@ public class MarketController implements Initializable {
 				fxmlloader.setLocation(getClass().getResource("/view/item.fxml"));
 				AnchorPane anchorPane = fxmlloader.load();
 				
+				
+				ItemController itemController = fxmlloader.getController();
+				itemController.setData(list.get(i), myListener);
+				
 				if(column == 3) {
 					column = 0;
 					row++;
 				}
-				ItemController itemController = fxmlloader.getController();
-				itemController.setData(list.get(i), myListener);
 				
 				grid.add(anchorPane, column++, row);
+				//set grid width
+                grid.setMinWidth(Region.USE_COMPUTED_SIZE);
+                grid.setPrefWidth(Region.USE_COMPUTED_SIZE);
+                grid.setMaxWidth(Region.USE_PREF_SIZE);
+
+                //set grid height
+                grid.setMinHeight(Region.USE_COMPUTED_SIZE);
+                grid.setPrefHeight(Region.USE_COMPUTED_SIZE);
+                grid.setMaxHeight(Region.USE_PREF_SIZE);
 				
 				GridPane.setMargin(anchorPane, new Insets(10));
 			}

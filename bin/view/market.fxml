@@ -23,7 +23,7 @@
    <children>
       <BorderPane layoutX="-4.0" layoutY="2.0" prefHeight="810.0" prefWidth="1311.0">
          <left>
-            <VBox prefHeight="810.0" prefWidth="446.0" styleClass="left-bar" stylesheets="@../css/style.css" BorderPane.alignment="CENTER">
+            <VBox maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" prefHeight="810.0" prefWidth="446.0" styleClass="left-bar" stylesheets="@../css/style.css" BorderPane.alignment="CENTER">
                <children>
                   <HBox alignment="CENTER" prefHeight="110.0" prefWidth="200.0" VBox.vgrow="ALWAYS">
                      <children>
@@ -39,7 +39,7 @@
                         </Label>
                      </children>
                   </HBox>
-                  <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0" stylesheets="@../css/style.css" VBox.vgrow="ALWAYS">
+                  <HBox alignment="CENTER" prefHeight="63.0" prefWidth="447.0" stylesheets="@../css/style.css" VBox.vgrow="ALWAYS">
                      <children>
                         <TextField prefHeight="40.0" prefWidth="230.0" promptText="Type here to search" styleClass="transparent" stylesheets="@../css/style.css">
                            <font>
@@ -133,9 +133,9 @@
             </VBox>
          </left>
          <center>
-            <VBox prefHeight="200.0" prefWidth="100.0" BorderPane.alignment="CENTER">
+            <VBox maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" prefHeight="810.0" prefWidth="865.0" BorderPane.alignment="CENTER">
                <children>
-                  <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0">
+                  <HBox alignment="CENTER" prefHeight="40.0" prefWidth="826.0">
                      <VBox.margin>
                         <Insets left="20.0" right="20.0" />
                      </VBox.margin>
@@ -163,7 +163,7 @@
                         </ImageView>
                      </children>
                   </HBox>
-                  <VBox prefHeight="110.0" prefWidth="865.0">
+                  <VBox prefHeight="70.0" prefWidth="865.0">
                      <children>
                         <HBox prefHeight="100.0" prefWidth="200.0">
                            <children>
@@ -191,7 +191,7 @@
                                     </ImageView>
                                  </children>
                               </HBox>
-                              <Pane prefHeight="100.0" prefWidth="33.0" HBox.hgrow="ALWAYS" />
+                              <Pane prefHeight="68.0" prefWidth="69.0" HBox.hgrow="ALWAYS" />
                               <HBox alignment="CENTER" prefHeight="100.0" prefWidth="348.0" styleClass="shopping-online-card" stylesheets="@../css/style.css">
                                  <children>
                                     <VBox alignment="CENTER" prefHeight="100.0" prefWidth="301.0">
@@ -220,9 +220,9 @@
                         </HBox>
                      </children>
                   </VBox>
-                  <HBox alignment="CENTER" prefHeight="570.0" prefWidth="785.0">
+                  <HBox alignment="CENTER" prefHeight="594.0" prefWidth="786.0">
                      <children>
-                        <ScrollPane fx:id="scroll" prefHeight="570.0" prefWidth="785.0" styleClass="transparent" stylesheets="@../css/style.css">
+                        <ScrollPane fx:id="scroll" prefHeight="612.0" prefWidth="786.0" styleClass="transparent" stylesheets="@../css/style.css">
                            <content>
                               <GridPane fx:id="grid" prefHeight="0.0" prefWidth="0.0">
                                  <rowConstraints>
